@@ -47,12 +47,14 @@ The system processes addresses through a **custom pipeline**:
 
 ## 📂 Project Structure
 
+```
 address_standardizer_app/
-│── cleaning.py # Address cleaning pipeline
-│── deduplication.py # Duplicate handling logic
-│── manual_mapping.py # Manual corrections
-│── main_app.py # Main application entry point
-│── dist/ # Compiled executable
+├── cleaning.py
+├── deduplication.py
+├── manual_mapping.py
+├── main_app.py
+└── README.md
+```
 
 ---
 
